@@ -59,7 +59,7 @@ def predict():
     image_path = "./images/" + imagefile.filename
     imagefile.save(image_path)
 
-    output_path = "./static" + imagefile.filename
+    output_path = "./static/" + imagefile.filename
 
     test_single_image(generator_path, image_path, output_path)
     print(output_path)
