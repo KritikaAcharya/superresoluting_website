@@ -56,16 +56,16 @@ def hello_word():
 @app.route('/', methods=['POST'])
 def predict():
     imagefile= request.files['imagefile']
-    image_path = "./images/" + imagefile.filename
+    image_path = "./static/input/" + imagefile.filename
     imagefile.save(image_path)
 
-    output_path = "./static/" + imagefile.filename
+    output_path = "./static/enhanced/" + imagefile.filename
 
     test_single_image(generator_path, image_path, output_path)
     print(output_path)
     
 
-    return render_template('index.html', prediction=output_path)
+    return render_template('index.html', prediction=output_path, inputFile=image_path)
 
 
 
