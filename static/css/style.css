@@ -91,6 +91,14 @@
     z-index: 2; /* Ensure button appears above image */
 }
 
+.upload-text{
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #61706f;
+}
+
 .download-btn:hover {
     color: #cccccc; /* Change button color on hover */
 }
