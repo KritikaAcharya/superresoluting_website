@@ -140,7 +140,6 @@ python-iso639==2023.6.15
 python-json-logger==2.0.7
 python-magic==0.4.27
 pytz==2023.3
-PyYAML==6.0
 pyzmq==25.0.2
 qtconsole==5.4.2
 QtPy==2.3.1
