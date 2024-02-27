@@ -45,7 +45,7 @@ def test_single_image(generator_path, input_image_path, output_path):
 if __name__ == "__main__":
     # Specify the paths and parameters
     # generator_path = "./model/pre_trained_model_064.pt"
-    generator_path = "pre_trained_model_032.pt"
+    generator_path = "MedSRGAN_gene_032.pt"
 
     # Test the model with a single image
 
